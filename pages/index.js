@@ -19,7 +19,7 @@ export default function Home() {
           <Fragment key={item.cat}>
             <Flex
               as={Link}
-              href={`/content/${item.cat.toLowerCase()}/en`}
+              href={`/content/${item.cat.toLowerCase()}`}
               border="1px"
               borderColor="brandYellow"
               borderRadius="md"
